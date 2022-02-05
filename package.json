@@ -8,15 +8,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth0/nextjs-auth0": "^1.7.0",
+    "@hookform/resolvers": "^2.8.8",
+    "faunadb": "^4.5.2",
     "next": "12.0.10",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "sass": "^1.49.7"
+    "react-hook-form": "^7.26.0",
+    "react-icons": "^4.3.1",
+    "sass": "^1.49.7",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@types/node": "^17.0.14",
     "@types/react": "^17.0.39",
     "autoprefixer": "^10.4.2",
+    "axios": "^0.25.0",
     "eslint": "8.8.0",
     "eslint-config-next": "12.0.10",
     "postcss": "^8.4.6",
